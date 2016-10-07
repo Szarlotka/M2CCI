@@ -4,11 +4,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/type.h>
+#include <sys/types.h>
 #include <unistd.h>
 
-int main void()
-  pid_t, pid, pid2;
+int main (void)
+{
+  pid_t pid, pid2;
   int i;
   
   pid= fork();
@@ -17,7 +18,6 @@ int main void()
     for (i=1; i<51; i++)
     {
       printf("%d\n",i);
-      exit1
     }
   }
   else /*pere*/
@@ -28,11 +28,11 @@ int main void()
       for (i=51; i<101; i++)
       {  
         printf("%d\n",i);
-        exit1
       }
     }
     else /*pere*/
     {
-      exit1
     }
+  }
 
+}
