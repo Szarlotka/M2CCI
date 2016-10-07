@@ -1,0 +1,38 @@
+//Exercice1: Creation et synchronisation de processus fils
+
+//1)programme en C, creation de deux fils, l'un affichant des entiers de 1 a 50, l'autre de 51 a 100.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/type.h>
+#include <unistd.h>
+
+int main void()
+  pid_t, pid, pid2;
+  int i;
+  
+  pid= fork();
+  if (pid==0) /*fils*/
+  {  
+    for (i=1; i<51; i++)
+    {
+      printf("%d\n",i);
+      exit1
+    }
+  }
+  else /*pere*/
+  {
+    pid2= fork();
+    if (pid2==0) /*fils*/
+    {
+      for (i=51; i<101; i++)
+      {  
+        printf("%d\n",i);
+        exit1
+      }
+    }
+    else /*pere*/
+    {
+      exit1
+    }
+
