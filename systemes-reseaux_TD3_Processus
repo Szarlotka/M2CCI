@@ -18,6 +18,7 @@ int main (void)
     for (i=1; i<51; i++)
     {
       printf("%d\n",i);
+      //exit1
     }
   }
   else /*pere*/
@@ -28,10 +29,12 @@ int main (void)
       for (i=51; i<101; i++)
       {  
         printf("%d\n",i);
+        //exit1
       }
     }
     else /*pere*/
     {
+      //exit1
     }
   }
 
