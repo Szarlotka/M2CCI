@@ -1,10 +1,8 @@
 <?php
 session_start();
-
 $_SESSION['adresse'] = $_POST['adresse'];
 $_SESSION['CP'] = $_POST['CP'];
 $_SESSION['ville'] = $_POST['ville'];
-
 ?>
 
 <!DOCTYPE html>
