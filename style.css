@@ -1,0 +1,15 @@
+div.cadre {
+    background-color: Gainsboro ;
+    /*color: white;*/
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    height: 360px;
+    width: 28%;
+} 
+.button{
+  background-color: #48D1CC;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #A9A9A9;
+}
