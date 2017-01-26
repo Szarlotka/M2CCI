@@ -6,21 +6,56 @@ session_start();
 <html>
 
 <form method="post" action="TP_2.php">
-<p><label for="civilite">Civilité <font color="red">*</font> :</label> <br>													
-<INPUT type="radio" name="sexe" value= "mme">Madame
-<INPUT type="radio" name="sexe" value= "mr">Monsieur</p>
-<p>Votre adresse email <font color="red">*</font><br>
-<input type="text" name="email"></p>
-<p>Votre date de naissance <font size="2pts" color="grey"> (jj/mm/aaaa) </font><br>
-<input type="text" name="dateNaiss"></p>
-<p>Nom <font color="red">*</font><br>
-<input type="text" name="nom"></p>
-<p>Prénom <font color="red">*</font><br>
-<input type="text" name="prenom"></p>
-<p>Téléphone fixe <font color="red">*</font> Téléphone mobile <font color="red">*</font><br>
-<input type="text" name="telfixe"> <font size="2pts" color="grey"> ou </font><input type="text" name="telmobile"></p>
-<p> <font size="2pts" color="grey">Veuillez indiquer au moins un téléphone</font></p>
-<p><input type="submit" value="Suivant"/></p>
+<table>
+<tr>
+	<td colspan="3"><label for="civilite">Civilité <font color="red">*</font></label></td>	
+</tr>												
+<tr>
+	<td colspan="3"><INPUT type="radio" name="sexe" value= "Mme">Madame
+		<INPUT type="radio" name="sexe" value= "Mr">Monsieur</td>
+</tr>
+<tr>
+	<td colspan="3">Votre adresse email <font color="red">*</font></td>
+</tr>
+<tr>
+	<td colspan="3"><input size="49" type="text" name="email"></td>
+</tr>
+<tr>
+	<td colspan="3">Votre date de naissance <font size="2pts" color="grey"> (jj/mm/aaaa) </font></td>
+</tr>
+<tr>
+	<td colspan="3"><input size="49" type="text" name="dateNaiss"></td>
+</tr>
+<tr>
+	<td colspan="3">Nom <font color="red">*</font></td>
+</tr>
+<tr>
+	<td colspan="3"><input size="49" type="text" name="nom"></td>
+</tr>
+<tr>
+	<td colspan="3">Prénom <font color="red">*</font></td>
+</tr>
+<tr>
+	<td colspan="3"><input size="49" type="text" name="prenom"></p></td>
+</tr>
+<tr>
+	<td>Téléphone fixe <font color="red">*</font></td>
+	<td/>
+	<td>Téléphone mobile <font color="red">*</font></td>
+</tr>
+<tr>
+	<td><input type="text" name="telfixe"></td>
+	<td><font size="2pts" color="grey"> ou </font></td>
+	<td><input type="text" name="telmobile"></td>
+</tr>
+<tr>
+	<td colspan="3"><i><font size="2pts" color="grey">Veuillez indiquer au moins un téléphone</font></i></td>
+</tr>
+<tr>
+	<td/><td/>
+	<td><input type="submit" value="Suivant"></td>
+</tr>
+</table>
 </form>
 
 </html>
